@@ -1,0 +1,42 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  background-color: rgb(219, 204, 181);
+  color: rgb(80, 49, 47);
+  font-family: 'Sacramento';
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+button {
+  padding: 4rem;
+  border-radius: 15px;
+  font-size: x-large;
+  height: inherit;
+}
+
+a {
+  color: rgb(116, 50, 51);
+  text-decoration: none;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.button-container img {
+  height: 100%;
+}

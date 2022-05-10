@@ -1,0 +1,16 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(219, 204, 181);
+}
+
+#c {
+    display: flex;
+    margin: auto;
+    background-image: url(sprites.png);
+    background-position: 0 0;
+    background-size: 355%; /* proportion of sprite image to background*/
+}
